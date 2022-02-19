@@ -21,4 +21,7 @@ typedef double real64;
 
 typedef size_t mem_index;
 
+#define Assert(Expr) if(!(Expr)) {*(int *)0 = 1;}
+#define InvalidCodePath(Message) Assert(!Message)
+
 #endif //ADVENT_H

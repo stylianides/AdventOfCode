@@ -31,3 +31,8 @@
 *.out
 *.app
 *.bat
+
+# Other
+*.pdb
+*.ilk
+*.4coder
